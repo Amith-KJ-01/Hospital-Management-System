@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hospital Management System - Enhanced Demo</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        .demo-header {
+            background: linear-gradient(135deg, #2563eb, #0ea5e9);
+            color: white;
+            text-align: center;
+            padding: 3rem 2rem;
+            margin-bottom: 2rem;
+        }
+        
+        .demo-header h1 {
+            font-size: 3rem;
+            margin-bottom: 1rem;
+        }
+        
+        .demo-header p {
+            font-size: 1.2rem;
+            opacity: 0.9;
+        }
+        
+        .feature-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 2rem;
+            padding: 2rem;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+        
+        .feature-card {
+            background: white;
+            border-radius: 16px;
+            padding: 2rem;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+            text-align: center;
+            transition: transform 0.3s ease;
+        }
+        
+        .feature-card:hover {
+            transform: translateY(-5px);
+        }
+        
+        .feature-card i {
+            font-size: 3rem;
+            color: #2563eb;
+            margin-bottom: 1rem;
+        }
+        
+        .feature-card h3 {
+            color: #1e293b;
+            margin-bottom: 1rem;
+        }
+        
+        .feature-card p {
+            color: #64748b;
+            line-height: 1.6;
+        }
+        
+        .cta-section {
+            text-align: center;
+            padding: 3rem 2rem;
+            background: #f8fafc;
+        }
+        
+        .cta-button {
+            display: inline-block;
+            background: #2563eb;
+            color: white;
+            padding: 1rem 2rem;
+            border-radius: 8px;
+            text-decoration: none;
+            font-weight: 600;
+            font-size: 1.1rem;
+            transition: all 0.3s ease;
+        }
+        
+        .cta-button:hover {
+            background: #1d4ed8;
+            transform: translateY(-2px);
+            box-shadow: 0 10px 25px rgba(37, 99, 235, 0.3);
+        }
+    </style>
+</head>
+<body>
+    <div class="demo-header">
+        <h1>🏥 Enhanced Hospital Management System</h1>
+        <p>A modern, responsive, and feature-rich healthcare management solution</p>
+    </div>
+
+    <div class="feature-grid">
+        <div class="feature-card">
+            <i class="fas fa-tachometer-alt"></i>
+            <h3>Enhanced Dashboard</h3>
+            <p>Interactive dashboard with quick action buttons, real-time statistics, and dynamic content updates. No more static charts - just actionable insights.</p>
+        </div>
+        
+        <div class="feature-card">
+            <i class="fas fa-user-injured"></i>
+            <h3>Advanced Patient Management</h3>
+            <p>Comprehensive patient records with enhanced filtering, search capabilities, and detailed information including email and address fields.</p>
+        </div>
+        
+        <div class="feature-card">
+            <i class="fas fa-user-md"></i>
+            <h3>Doctor Profiles</h3>
+            <p>Rich doctor profiles with experience levels, contact information, and availability status. Easy management and quick access to doctor information.</p>
+        </div>
+        
+        <div class="feature-card">
+            <i class="fas fa-calendar-check"></i>
+            <h3>Smart Appointments</h3>
+            <p>Intelligent appointment booking with patient and doctor selection, notes support, and upcoming appointments preview on the dashboard.</p>
+        </div>
+        
+        <div class="feature-card">
+            <i class="fas fa-credit-card"></i>
+            <h3>Comprehensive Billing</h3>
+            <p>Advanced billing system with detailed transaction history, status tracking, and financial summaries. Support for notes and additional billing information.</p>
+        </div>
+        
+        <div class="feature-card">
+            <i class="fas fa-palette"></i>
+            <h3>Modern Design</h3>
+            <p>Beautiful flat UI design with smooth animations, hover effects, and responsive layout. Dark mode support and professional color scheme.</p>
+        </div>
+    </div>
+
+    <div class="cta-section">
+        <h2>Ready to Experience the Enhanced System?</h2>
+        <p>Click below to open the full Hospital Management System</p>
+        <a href="index.html" class="cta-button">
+            <i class="fas fa-arrow-right"></i> Open System
+        </a>
+    </div>
+
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-section">
+                <h4>Enhanced Features</h4>
+                <ul>
+                    <li>Quick Action Buttons</li>
+                    <li>Dynamic Statistics</li>
+                    <li>Enhanced Data Models</li>
+                    <li>Improved User Experience</li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h4>Technical Improvements</h4>
+                <ul>
+                    <li>Removed Chart.js Dependency</li>
+                    <li>Enhanced CSS Animations</li>
+                    <li>Better Mobile Responsiveness</li>
+                    <li>Optimized Performance</li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h4>User Interface</h4>
+                <ul>
+                    <li>Modern Flat Design</li>
+                    <li>Smooth Transitions</li>
+                    <li>Interactive Elements</li>
+                    <li>Professional Layout</li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h4>Data Management</h4>
+                <ul>
+                    <li>Enhanced Sample Data</li>
+                    <li>Better Form Validation</li>
+                    <li>Improved Search & Filters</li>
+                    <li>Real-time Updates</li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2024 Enhanced MedCare Hospital System. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>
+
